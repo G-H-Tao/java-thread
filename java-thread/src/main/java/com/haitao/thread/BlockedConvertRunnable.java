@@ -34,7 +34,7 @@ public class BlockedConvertRunnable {
 		thread2.start();
 		System.out.println(thread.getName()+":"+thread.getState());
 		System.out.println(thread2.getName()+":"+thread2.getState());
-		
+		new Object();
 	}
 	
 	/**
